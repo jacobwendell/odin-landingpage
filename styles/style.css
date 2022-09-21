@@ -169,3 +169,33 @@ h3 {
     color: #1d3557;
     font-weight: bold;
 }
+
+/* Footer */
+footer {
+    background-color: #457b9d;
+    padding: 1px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    color: #f1faee;
+    letter-spacing: 1px;
+}
+
+footer img {
+    height: 30px;
+    align-self: center;
+}
+
+.hover {
+    text-decoration: underline;
+}
+
+.hover:hover {
+    font-size:0;
+}
+
+.hover:hover:after {
+    content: attr(data-hover);
+    font-size: 16px;
+}
