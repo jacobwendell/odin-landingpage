@@ -112,7 +112,7 @@ h3 {
 
 .quote-area {
     text-align: center;
-    padding: 100px;
+    padding: 75px;
     background-color:#a8dadc;
     color: #1d3557;
 }
@@ -132,4 +132,40 @@ h3 {
     font-size: 20px;
     font-weight: bold;
     text-align: right;
+}
+
+/* Sign Up */
+.call-to-action {
+    background-color: #1d3557;
+    padding: 75px;
+}
+
+.card {
+    background-color: #a8dadc;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.card .text h5 {
+    font-size: 20px
+}
+
+.card .text p {
+    font-size: 18px;
+}
+
+.card button {
+    flex: 0 0 auto;
+    border: 2px solid #f1faee;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #a8dadc;
+    color: #1d3557;
+    font-weight: bold;
 }
