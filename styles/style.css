@@ -30,5 +30,25 @@ header ul li a {
 
 }
 
-
 /* Hero */
+.hero {
+    background-color: #a8dadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 20px;
+}
+
+.text-button {
+    width: 400px;
+    color: #1d3557;
+}
+
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+    border: 3px solid #e63946
+}
